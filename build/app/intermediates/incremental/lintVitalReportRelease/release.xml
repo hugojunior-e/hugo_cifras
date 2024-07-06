@@ -1,0 +1,40 @@
+<variant
+    name="release"
+    package="com.example.hugojr_cifras"
+    minSdkVersion="21"
+    targetSdkVersion="34"
+    shrinking="true"
+    mergedManifest="/algar/projetos/particular/hcifras/hugojr_cifras/build/app/intermediates/merged_manifest/release/AndroidManifest.xml"
+    manifestMergeReport="/algar/projetos/particular/hcifras/hugojr_cifras/build/app/outputs/logs/manifest-merger-release-report.txt"
+    proguardFiles="/algar/projetos/particular/hcifras/hugojr_cifras/build/app/intermediates/default_proguard_files/global/proguard-android.txt-7.3.0:/algar/ferramentas/flutter/flutter/packages/flutter_tools/gradle/flutter_proguard_rules.pro:proguard-rules.pro"
+    partialResultsDir="/algar/projetos/particular/hcifras/hugojr_cifras/build/app/intermediates/lint_vital_partial_results/release/out">
+  <buildFeatures
+      namespacing="REQUIRED"/>
+  <sourceProviders>
+    <sourceProvider
+        manifest="src/main/AndroidManifest.xml"
+        javaDirectories="src/main/java:src/main/kotlin"
+        resDirectories="src/main/res"
+        assetsDirectories="src/main/assets"/>
+    <sourceProvider
+        manifest="src/release/AndroidManifest.xml"
+        javaDirectories="src/release/java:src/release/kotlin"
+        resDirectories="src/release/res"
+        assetsDirectories="src/release/assets"/>
+  </sourceProviders>
+  <testSourceProviders>
+  </testSourceProviders>
+  <testFixturesSourceProviders>
+  </testFixturesSourceProviders>
+  <manifestPlaceholders>
+    <placeholder
+        name="applicationName"
+        value="android.app.Application" />
+  </manifestPlaceholders>
+  <mainArtifact
+      classOutputs="/algar/projetos/particular/hcifras/hugojr_cifras/build/app/intermediates/javac/release/classes:/algar/projetos/particular/hcifras/hugojr_cifras/build/app/tmp/kotlin-classes/release:/algar/projetos/particular/hcifras/hugojr_cifras/build/app/kotlinToolingMetadata:/algar/projetos/particular/hcifras/hugojr_cifras/build/app/intermediates/compile_and_runtime_not_namespaced_r_class_jar/release/R.jar"
+      applicationId="com.example.hugojr_cifras"
+      generatedSourceFolders="/algar/projetos/particular/hcifras/hugojr_cifras/build/app/generated/ap_generated_sources/release/out:/algar/projetos/particular/hcifras/hugojr_cifras/build/app/generated/aidl_source_output_dir/release/out:/algar/projetos/particular/hcifras/hugojr_cifras/build/app/generated/source/buildConfig/release:/algar/projetos/particular/hcifras/hugojr_cifras/build/app/generated/renderscript_source_output_dir/release/out"
+      generatedResourceFolders="/algar/projetos/particular/hcifras/hugojr_cifras/build/app/generated/res/rs/release:/algar/projetos/particular/hcifras/hugojr_cifras/build/app/generated/res/resValues/release">
+  </mainArtifact>
+</variant>

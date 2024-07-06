@@ -1,0 +1,13 @@
+io.flutter.plugins.webviewflutter.webview_flutter_android-pngs-0 /algar/projetos/particular/hcifras/hugojr_cifras/build/webview_flutter_android/generated/res/pngs/release
+io.flutter.plugins.webviewflutter.webview_flutter_android-resValues-1 /algar/projetos/particular/hcifras/hugojr_cifras/build/webview_flutter_android/generated/res/resValues/release
+io.flutter.plugins.webviewflutter.webview_flutter_android-rs-2 /algar/projetos/particular/hcifras/hugojr_cifras/build/webview_flutter_android/generated/res/rs/release
+io.flutter.plugins.webviewflutter.webview_flutter_android-mergeReleaseResources-3 /algar/projetos/particular/hcifras/hugojr_cifras/build/webview_flutter_android/intermediates/incremental/release/mergeReleaseResources/merged.dir
+io.flutter.plugins.webviewflutter.webview_flutter_android-mergeReleaseResources-4 /algar/projetos/particular/hcifras/hugojr_cifras/build/webview_flutter_android/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+io.flutter.plugins.webviewflutter.webview_flutter_android-merged_res-5 /algar/projetos/particular/hcifras/hugojr_cifras/build/webview_flutter_android/intermediates/merged_res/release
+io.flutter.plugins.webviewflutter.webview_flutter_android-core-1.6.0-6 /home/hugoa/.gradle/caches/transforms-3/284a410c767ad6c7a2b0ffc8d8d85981/transformed/core-1.6.0/res
+io.flutter.plugins.webviewflutter.webview_flutter_android-jetified-window-java-1.0.0-beta04-7 /home/hugoa/.gradle/caches/transforms-3/2a215381204751055df81b6269e717b7/transformed/jetified-window-java-1.0.0-beta04/res
+io.flutter.plugins.webviewflutter.webview_flutter_android-jetified-annotation-experimental-1.1.0-8 /home/hugoa/.gradle/caches/transforms-3/3d2f03fc996c2e0aa3dee5cfa3002cd1/transformed/jetified-annotation-experimental-1.1.0/res
+io.flutter.plugins.webviewflutter.webview_flutter_android-webkit-1.11.0-9 /home/hugoa/.gradle/caches/transforms-3/e536ff8f3e9ca85a08e5179e81aaf167/transformed/webkit-1.11.0/res
+io.flutter.plugins.webviewflutter.webview_flutter_android-jetified-window-1.0.0-beta04-10 /home/hugoa/.gradle/caches/transforms-3/f302e75fb7efd781bcf1a29281c188da/transformed/jetified-window-1.0.0-beta04/res
+io.flutter.plugins.webviewflutter.webview_flutter_android-main-11 /home/hugoa/.pub-cache/hosted/pub.dev/webview_flutter_android-3.16.4/android/src/main/res
+io.flutter.plugins.webviewflutter.webview_flutter_android-release-12 /home/hugoa/.pub-cache/hosted/pub.dev/webview_flutter_android-3.16.4/android/src/release/res
