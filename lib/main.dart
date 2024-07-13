@@ -41,41 +41,34 @@ class SearchScreen extends StatefulWidget {
 
 
 class _SearchScreenState extends State<SearchScreen> {
-  List<Map<String, dynamic>> globalItems = [];
+  DatabaseHelper ddb = DatabaseHelper();
   List<_LMusic> items = [];
 
-  _SearchScreenState() {
-    carregaItens();
-  }
 
-  void search(String query) async {
+  void search(String query) {
     setState(
       () {
         items.clear();
         List<String> queryL = query.toLowerCase().split(" ");
 
-        for (int i = 0; i < globalItems.length; i++) {
+        for (int i = 0; i < ddb.lista.length; i++) {
           bool b = true;
           for (int j = 0; j < queryL.length; j++) {
-            b = b && globalItems[i]['titulo'].contains(queryL[j]);
+            b = b && ddb.lista[i]['titulo'].contains(queryL[j]);
           }
 
           if (b) {
             _LMusic l = _LMusic();
 
-            l.cifra = globalItems[i]['cifra'];
-            l.musica = globalItems[i]['titulo'];
-            l.tom = globalItems[i]['tom'];
+            l.cifra = ddb.lista[i]['cifra'];
+            l.musica = ddb.lista[i]['titulo'];
+            l.tom = ddb.lista[i]['tom'];
 
             items.add(l);
           }
         }
       },
     );
-  }
-
-  void carregaItens() async {
-    globalItems = await DatabaseHelper.getItems();
   }
 
   void itemBuilderOnTap(index) {
@@ -150,11 +143,6 @@ class _LMusic {
 
 //-----------------------------------------------------------------------------------------------------
 
-
-
-
-
-
 // ignore: must_be_immutable
 class SecondRoute extends StatelessWidget {
   var musica = _LMusic();
@@ -162,7 +150,7 @@ class SecondRoute extends StatelessWidget {
 
   SecondRoute(l, {super.key}) {
     musica = l;
-    html = """
+    html = """ 
         <style>
            b { color: red; font-weight: bold; font-size: 40px;} 
            input { font-weight: bold; font-size: 90px;
